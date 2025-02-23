@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IVA</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>IVA</h1>
+        <h2>Includify's Voice Assistant</h2>
+        <div class="status-container">
+            <div id="connectionStatus" class="status">Disconnected</div>
+            <div id="speakingStatus" class="speaking-status">Agent Silent</div>
+        </div>
+        <div class="speaking-container">
+            <img src="https://cdn.dribbble.com/userupload/25450173/file/original-bc126c704de9ad13b88a1519cd0febd9.gif" id="speakingAnimation" style="display:none; width: 200px; height: 200px;">
+        </div>
+        <div class="controls">
+            <button id="startButton" class="button">Start Conversation</button>
+            <button id="endButton" class="button" disabled>End Conversation</button>
+        </div>
+    </div>
+    <script src="/static/bundle.js"></script>
+</body>
+</html>
